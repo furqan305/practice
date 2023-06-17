@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact page</title>
+    <link rel="stylesheet" href="../index.css">
+</head>
+
+<body>
+    <header>
+        <img src="../assets/images/tourism.png" alt="this is an icon image">
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">Home page</a>
+                </li>
+                <li>
+                    <a href="../gallery page/gallery.html">Gallery</a>
+                </li>
+                <li>
+                    <a href="../contact page/contact.html">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="contact-main">
+        <form id="contact-form" action="https://formspree.io/f/mjvdqznq" method="post" class="form-container">
+            <h1>Contact us</h1>
+            <div class="">
+                Full name:<input type="text" name="Name" maxlength="30" class="form-section-inputs form-name" required />
+            </div>
+            <div class="">
+                Your Email address:<input type="email" name="Email" class="form-section-inputs form-email" required />
+            </div>
+            <div class="">
+                Write your massage here:
+                <textarea name="Message" cols="30" rows="6" maxlength="500" class="form-section-textarea"
+                    required></textarea>
+            </div>
+            <button type="submit" class="form-button">Get in touch</button>
+        </form>
+    </main>
+</body>
+
+</html>
